@@ -1,8 +1,23 @@
-# Use
+# laravel-soap-client
+
+## API Use
 
 Request: GET http://localhost:8000/api/getPosition
 
 Fill the username and password at env file.
+
+## Possible RabbitMQ Consumer Implementation
+
+**Option 1:**
+https://github.com/vyuldashev/laravel-queue-rabbitmq
+https://www.youtube.com/watch?v=K-xzRM6EKHg&ab_channel=NevyanNeykov
+
+**Option 2:**
+https://github.com/vyuldashev/laravel-queue-rabbitmq
+https://dev.to/healthplace/consuming-rabbitmq-queues-in-laravel-4ok9
+https://github.com/bschmitt/laravel-amqp
+
+
 
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
